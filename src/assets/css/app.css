@@ -1,0 +1,63 @@
+@font-face {
+  font-family: 'Source Sans Pro';
+  src: url('../fonts/SourceSansPro.ttf')
+}
+body {
+  font-family: 'Source Sans Pro', 'Avenir', Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: none;
+  margin: 0;
+  height: 100%;
+}
+ol, ul, form, p {
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: #42b983;
+  cursor: pointer;
+}
+p {
+  word-spacing: 0.05em
+}
+pre {
+  overflow-x: auto;
+}
+#app {
+  color: #2c3e50;
+  position: relative;
+}
+.fade {
+  opacity: 0;
+}
+.app-body {
+  padding: 75px 1em 30px 1em;
+  margin: 0 auto;
+  height: 100%;
+  max-width: 750px;
+  position: relative;
+  transition: opacity .2s;
+}
+.tags {
+  margin: 15px 0;
+}
+span.tag-code {
+  font-family: 'Roboto Mono', Monaco, courier, monospace;
+  font-size: 0.8em;
+  background-color: #f8f8f8;
+  color: #e96900;
+  padding: 3px 5px;
+  margin: 0 2px;
+  border-radius: 2px;
+  white-space: nowrap;
+}
+.hidden {
+  display: none;
+}
+@media screen and (max-width: 480px) {
+  body {
+    font-size: 15px;
+  }
+}
